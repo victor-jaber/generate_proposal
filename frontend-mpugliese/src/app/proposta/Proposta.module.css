@@ -1,0 +1,96 @@
+/* src/app/GerarProposta.module.css */
+.container {
+    background-color: #f4f4f4;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  .addItemBtn {
+    background-color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 10px;
+    display: inline-block; /* Mantém o botão na linha correta */
+}
+
+.inputGroup {
+    margin-top: 10px; /* Espaçamento entre o botão e o input */
+}
+
+#prazo {
+    display: block; /* Faz o input ficar na linha de baixo */
+    margin-top: 10px;
+    width: 100%; /* Ajusta a largura do input */
+}
+
+  .form {
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: white;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .inputField, .textareaField {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .submitButton {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .submitButton:hover {
+    background-color: #218838;
+  }
+
+  .table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+
+  .table, .table th, .table td {
+    border: 1px solid #ddd;
+  }
+
+  .table th, .table td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .addItemBtn {
+    background-color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 10px;
+  }
+
+  .removeItemBtn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  .title {
+    text-align: center;
+  }
